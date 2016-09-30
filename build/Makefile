@@ -2,7 +2,7 @@
 BINDIR=
 CAMLC=$(BINDIR)ocamlopt
 CAML=$(BINDIR)ocamlopt
-CAMLDEP=$(BINDIR)ocamldep.opt
+#CAMLDEP=$(BINDIR)ocamldep.opt
 CAMLLEX=$(BINDIR)ocamllex
 CAMLYACC=$(BINDIR)ocamlyacc
 CAMLFIND=$(BINDIR)ocamlfind
