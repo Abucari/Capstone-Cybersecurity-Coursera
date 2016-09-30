@@ -9,7 +9,8 @@ CAMLFIND=$(BINDIR)ocamlfind
 
 # User definitions must be here
 EXEC = logappend
-SOURCES = rand.ml crypt_util.ml gallery.ml parserlist.ml logappend.ml
+#SOURCES = rand.ml crypt_util.ml gallery.ml parserlist.ml logappend.ml
+SOURCES = crypt_util.ml gallery.ml parserlist.ml logappend.ml
 GENERATED = parser.ml lexer.ml
 OBJS =  rand.cmx parserlist.cmx crypt_util.cmx gallery.cmx \
 parser.cmx lexer.cmx \
