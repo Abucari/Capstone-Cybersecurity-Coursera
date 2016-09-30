@@ -17,7 +17,7 @@ parser.cmx lexer.cmx \
 logappend.cmx
 
 EXEC2 = logread
-SOURCES2 = rand.ml crypt_util.ml gallery.ml logread.ml 
+#SOURCES2 = rand.ml crypt_util.ml gallery.ml logread.ml 
 GENERATED2 = 
 OBJS2 = rand.cmx crypt_util.cmx gallery.cmx logread.cmx
 
